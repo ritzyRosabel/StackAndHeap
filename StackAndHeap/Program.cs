@@ -12,8 +12,8 @@ namespace StackAndHeap
         static void Main(string[] args)
         {
             BirthYear birthYear = new BirthYear("opemipo",14); //Reference to birthyear stored in the stack although birth year it self is stored in the heap
-            birthYear.AddYear();
-            birthYear.DisplayResult();
+            birthYear.AddYear();//makes changes my adding a year to age in the heap
+            birthYear.DisplayResult();//display the values
             Console.ReadLine();
         }
     }

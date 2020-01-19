@@ -25,7 +25,7 @@ namespace StackAndHeap
             Console.WriteLine(now);
             age += result;
             result++;
-            now = 4; ;//becomes 4 instead of carrying te same value as result
+            now = 4; ;//becomes 4 instead of carrying the same value as result
             Console.WriteLine(result);
             Console.WriteLine(now);
         }
