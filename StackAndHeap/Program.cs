@@ -8,7 +8,7 @@ namespace StackAndHeap
 {
     class Program
     {
-   
+   // i need to go over this again i dont understand what i did here
         static void Main(string[] args)
         {
             BirthYear birthYear = new BirthYear("opemipo",14); //Reference to birthyear stored in the stack although birth year it self is stored in the heap
