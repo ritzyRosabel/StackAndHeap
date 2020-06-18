@@ -18,8 +18,8 @@ namespace StackAndHeap
         }
         public void AddYear()//stored in the stack
         {
-            int result = 1;//stored in stack
-            int now = result; ;//stored in stack
+            int result = 1;//stored in stack // this is a value type
+            int now = result; ;//stored in stack // this is a value type
 
             Console.WriteLine(result);
             Console.WriteLine(now);
