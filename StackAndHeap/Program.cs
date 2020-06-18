@@ -8,7 +8,7 @@ namespace StackAndHeap
 {
     class Program
     {
-   // i need to go over this again i dont understand what i did here
+   // i need to go over this again i dont understand what i did here. If this code works, then it was writen by Rosabel Olugbenga. If it doesn't, then i can only say one thing  "IT IS WHAT IT IS".
         static void Main(string[] args)
         {
             //Think of the Stack as a series of boxes stacked one on top of the next.  We keep track of what's going on in our application by stacking another box on top every time we call a method (called a Frame).  We can only use what's in the top box on the stack.  When we're done with the top box (the method is done executing) we throw it away and proceed to use the stuff in the previous box on the top of the stack. The Heap is similar except that its purpose is to hold information (not keep track of execution most of the time) so anything in our Heap can be accessed at any time.
